@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+* {
+    font-family: 'Pattaya', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 600px;
+    background-image: url(images/banner-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-nav {
+    font-family: sans-serif;
+    padding: 20px;
+    display: flex;
+}
+
+.header-nav ul {
+    font-family: sans-serif;
+    margin-left: 850px;
+    list-style: none;
+    display: flex;
+}
+
+.header-nav ul li {
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+.logo-1 {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.suskrajz {
+    font-family: sans-serif;
+    padding: 5px;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    border: 1px solid black;
+}
+
+.title-main {
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    font-size: 60px;
+    margin-top: 155px;
+    text-align: center;
+}
+
+.title-under {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.underline {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: gray;
+    height: 5px;
+    width: 50px;
+}
+
+.section-header {
+    background-color: whitesmoke;
+}
+
+.section {
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 50px;
+    display: flex;
+    background-color: whitesmoke;
+    height: 500px;
+}
+
+.section-text {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.section-underline {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: gray;
+    height: 5px;
+    width: 50px;
+}
+
+.card-1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    height: 500px;
+}
+
+.card-2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    height: 500px;
+}
+
+.card-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    height: 500px;
+}
+
+.card-img1 {
+    margin-right: 20px;
+    width: 350px;
+    height: 300px;
+}
+
+.card-img2 {
+    width: 350px;
+    height: 300px;
+}
+
+.card-img3 {
+    width: 350px;
+    height: 300px;
+}
+
+.card-underline {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+}
+
+.card-1 p {
+    text-align: center;
+    font-family: 'Pattaya';
+}
+
+.card-2 p {
+    text-align: center;
+    font-family: 'Pattaya';
+}
+
+.card-3 p {
+    text-align: center;
+    font-family: 'Pattaya';
+}
+
+.section-about {
+    padding-top: 50px;
+    display: flex;
+}
+
+.about-us-img {
+    width: 1600px;
+    height: 500px;
+}
+
+.about-title {
+    margin-top: 100px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.about-underline {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 35px;
+    height: 5px;
+    background-color: gray;
+}
+
+.about-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.section-subscribe {
+    height: 300px;
+    background-color: rgb(196, 196, 196);
+}
+
+.subscribe-title {
+    font-size: 25px;
+    padding-top: 60px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.subscribe-desc {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.mail-input {
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    margin-left: 38%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn-subscribe {
+    cursor: pointer;
+    border: 1px solid black;
+    background:none;
+    outline: none;
+    font-family: sans-serif;
+    height: 40px;
+    width: 120px;
+    margin-top: 20px;
+ margin-left: 46%;
+}
+
+.footer {
+    height: 140px;
+    display: flex;
+}
+
+.social {
+    list-style: none;
+    letter-spacing: 15px;
+    padding-left: 40px;
+    padding-top: 70px;
+    display: flex;
+}
+
+
+.links {
+    list-style: none;
+    padding-top: 70px;
+    padding-left: 790px;
+    display: flex;
+}
+
+.links li {
+    font-family: sans-serif;
+    padding-left:20px;
+}
